@@ -1,7 +1,7 @@
 # ReactMe #
 
-### Application that visualizes reactive extantion: ###
+### The application that visualizes reactive extention: ###
 
 * Observables
 * Subjects (Publish, Behavior, Reply, Variable)
-* Operators (Filtring, Transforming, Combining)
+* Operators (Filtering, Transforming, Combining)
