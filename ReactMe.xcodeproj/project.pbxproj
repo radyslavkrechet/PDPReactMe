@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B09D3891EAF9F23005733EA /* ObservablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3881EAF9F23005733EA /* ObservablesViewController.swift */; };
+		0B09D38D1EAFB7FB005733EA /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D38C1EAFB7FB005733EA /* SubjectsViewController.swift */; };
+		0B09D3931EB0CBE8005733EA /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3921EB0CBE8005733EA /* SubjectViewController.swift */; };
+		0B09D39B1EB0F65E005733EA /* Observables.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B09D39A1EB0F65E005733EA /* Observables.storyboard */; };
+		0B09D39D1EB0F74B005733EA /* Subjects.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B09D39C1EB0F74B005733EA /* Subjects.storyboard */; };
+		0B09D39F1EB1D4DE005733EA /* Operators.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B09D39E1EB1D4DE005733EA /* Operators.storyboard */; };
+		0B09D3A21EB1D657005733EA /* OperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3A11EB1D657005733EA /* OperatorsViewController.swift */; };
+		0B09D3A41EB1EFDD005733EA /* FiltringOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3A31EB1EFDD005733EA /* FiltringOperatorsViewController.swift */; };
+		0B09D3A61EB1F01F005733EA /* FiltringOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3A51EB1F01F005733EA /* FiltringOperatorViewController.swift */; };
+		0B09D3A81EB230B5005733EA /* TransformingOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3A71EB230B5005733EA /* TransformingOperatorsViewController.swift */; };
+		0B09D3AA1EB230C7005733EA /* MapOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3A91EB230C7005733EA /* MapOperatorViewController.swift */; };
+		0B09D3AC1EB230D6005733EA /* FlatMapOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3AB1EB230D6005733EA /* FlatMapOperatorViewController.swift */; };
+		0B09D3AE1EB3723C005733EA /* CombimingOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3AD1EB3723C005733EA /* CombimingOperatorViewController.swift */; };
+		0B09D3B01EB37249005733EA /* CombimingOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3AF1EB37249005733EA /* CombimingOperatorsViewController.swift */; };
+		0BEED9D81EAF8E9400CB363A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEED9D71EAF8E9400CB363A /* AppDelegate.swift */; };
+		0BEED9DD1EAF8E9400CB363A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEED9DB1EAF8E9400CB363A /* Main.storyboard */; };
+		0BEED9DF1EAF8E9400CB363A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BEED9DE1EAF8E9400CB363A /* Assets.xcassets */; };
+		0BEED9E21EAF8E9400CB363A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEED9E01EAF8E9400CB363A /* LaunchScreen.storyboard */; };
+		0BEED9F21EAF92C000CB363A /* SectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEED9F11EAF92C000CB363A /* SectionsViewController.swift */; };
+		5DFE5B5819F47B16053797B2 /* Pods_ReactMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0501DC7DD926E2E10B24CFEB /* Pods_ReactMe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0501DC7DD926E2E10B24CFEB /* Pods_ReactMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B09D3881EAF9F23005733EA /* ObservablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservablesViewController.swift; sourceTree = "<group>"; };
+		0B09D38C1EAFB7FB005733EA /* SubjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
+		0B09D3921EB0CBE8005733EA /* SubjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
+		0B09D39A1EB0F65E005733EA /* Observables.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Observables.storyboard; sourceTree = "<group>"; };
+		0B09D39C1EB0F74B005733EA /* Subjects.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Subjects.storyboard; sourceTree = "<group>"; };
+		0B09D39E1EB1D4DE005733EA /* Operators.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Operators.storyboard; sourceTree = "<group>"; };
+		0B09D3A11EB1D657005733EA /* OperatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorsViewController.swift; sourceTree = "<group>"; };
+		0B09D3A31EB1EFDD005733EA /* FiltringOperatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltringOperatorsViewController.swift; sourceTree = "<group>"; };
+		0B09D3A51EB1F01F005733EA /* FiltringOperatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltringOperatorViewController.swift; sourceTree = "<group>"; };
+		0B09D3A71EB230B5005733EA /* TransformingOperatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformingOperatorsViewController.swift; sourceTree = "<group>"; };
+		0B09D3A91EB230C7005733EA /* MapOperatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapOperatorViewController.swift; sourceTree = "<group>"; };
+		0B09D3AB1EB230D6005733EA /* FlatMapOperatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatMapOperatorViewController.swift; sourceTree = "<group>"; };
+		0B09D3AD1EB3723C005733EA /* CombimingOperatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombimingOperatorViewController.swift; sourceTree = "<group>"; };
+		0B09D3AF1EB37249005733EA /* CombimingOperatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombimingOperatorsViewController.swift; sourceTree = "<group>"; };
+		0BEED9D41EAF8E9400CB363A /* ReactMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEED9D71EAF8E9400CB363A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BEED9DC1EAF8E9400CB363A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BEED9DE1EAF8E9400CB363A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BEED9E11EAF8E9400CB363A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BEED9E31EAF8E9400CB363A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BEED9F11EAF92C000CB363A /* SectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionsViewController.swift; sourceTree = "<group>"; };
+		40682513B77CE36533A0851F /* Pods-ReactMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactMe/Pods-ReactMe.release.xcconfig"; sourceTree = "<group>"; };
+		D7D04B6D1A2BA7B839488AFE /* Pods-ReactMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactMe/Pods-ReactMe.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BEED9D11EAF8E9400CB363A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFE5B5819F47B16053797B2 /* Pods_ReactMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B09D38E1EAFB909005733EA /* Subjects */ = {
+			isa = PBXGroup;
+			children = (
+				0B09D38C1EAFB7FB005733EA /* SubjectsViewController.swift */,
+				0B09D3921EB0CBE8005733EA /* SubjectViewController.swift */,
+			);
+			name = Subjects;
+			sourceTree = "<group>";
+		};
+		0B09D38F1EAFB95B005733EA /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				0B09D3881EAF9F23005733EA /* ObservablesViewController.swift */,
+			);
+			name = Observables;
+			sourceTree = "<group>";
+		};
+		0B09D3A01EB1D634005733EA /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				0B09D3A11EB1D657005733EA /* OperatorsViewController.swift */,
+				0B09D3A31EB1EFDD005733EA /* FiltringOperatorsViewController.swift */,
+				0B09D3A51EB1F01F005733EA /* FiltringOperatorViewController.swift */,
+				0B09D3A71EB230B5005733EA /* TransformingOperatorsViewController.swift */,
+				0B09D3A91EB230C7005733EA /* MapOperatorViewController.swift */,
+				0B09D3AB1EB230D6005733EA /* FlatMapOperatorViewController.swift */,
+				0B09D3AF1EB37249005733EA /* CombimingOperatorsViewController.swift */,
+				0B09D3AD1EB3723C005733EA /* CombimingOperatorViewController.swift */,
+			);
+			name = Operators;
+			sourceTree = "<group>";
+		};
+		0BEED9CB1EAF8E9400CB363A = {
+			isa = PBXGroup;
+			children = (
+				0BEED9D61EAF8E9400CB363A /* ReactMe */,
+				0BEED9D51EAF8E9400CB363A /* Products */,
+				EB019375E64F54BEDC12D404 /* Pods */,
+				667FAF8646866AC1058880DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0BEED9D51EAF8E9400CB363A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BEED9D41EAF8E9400CB363A /* ReactMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BEED9D61EAF8E9400CB363A /* ReactMe */ = {
+			isa = PBXGroup;
+			children = (
+				0BEED9E91EAF8FBB00CB363A /* Source */,
+				0BEED9D71EAF8E9400CB363A /* AppDelegate.swift */,
+				0BEED9EA1EAF8FC500CB363A /* Resources */,
+			);
+			path = ReactMe;
+			sourceTree = "<group>";
+		};
+		0BEED9E91EAF8FBB00CB363A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0BEED9F01EAF929100CB363A /* Controllers */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		0BEED9EA1EAF8FC500CB363A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0BEED9EB1EAF8FD200CB363A /* Assets */,
+				0BEED9EC1EAF8FDC00CB363A /* Lists */,
+				0BEED9ED1EAF8FE700CB363A /* Storyboards */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0BEED9EB1EAF8FD200CB363A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0BEED9DE1EAF8E9400CB363A /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		0BEED9EC1EAF8FDC00CB363A /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				0BEED9E31EAF8E9400CB363A /* Info.plist */,
+			);
+			name = Lists;
+			sourceTree = "<group>";
+		};
+		0BEED9ED1EAF8FE700CB363A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0BEED9E01EAF8E9400CB363A /* LaunchScreen.storyboard */,
+				0BEED9DB1EAF8E9400CB363A /* Main.storyboard */,
+				0B09D39A1EB0F65E005733EA /* Observables.storyboard */,
+				0B09D39C1EB0F74B005733EA /* Subjects.storyboard */,
+				0B09D39E1EB1D4DE005733EA /* Operators.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		0BEED9F01EAF929100CB363A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0BEED9F11EAF92C000CB363A /* SectionsViewController.swift */,
+				0B09D38F1EAFB95B005733EA /* Observables */,
+				0B09D38E1EAFB909005733EA /* Subjects */,
+				0B09D3A01EB1D634005733EA /* Operators */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		667FAF8646866AC1058880DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0501DC7DD926E2E10B24CFEB /* Pods_ReactMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB019375E64F54BEDC12D404 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7D04B6D1A2BA7B839488AFE /* Pods-ReactMe.debug.xcconfig */,
+				40682513B77CE36533A0851F /* Pods-ReactMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BEED9D31EAF8E9400CB363A /* ReactMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BEED9E61EAF8E9400CB363A /* Build configuration list for PBXNativeTarget "ReactMe" */;
+			buildPhases = (
+				3A389AE2C682B71CC79D015F /* [CP] Check Pods Manifest.lock */,
+				0BEED9D01EAF8E9400CB363A /* Sources */,
+				0BEED9D11EAF8E9400CB363A /* Frameworks */,
+				0BEED9D21EAF8E9400CB363A /* Resources */,
+				7AD94F129033CBA74CDA405B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactMe;
+			productName = ReactMe;
+			productReference = 0BEED9D41EAF8E9400CB363A /* ReactMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BEED9CC1EAF8E9400CB363A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = RubyGarage;
+				TargetAttributes = {
+					0BEED9D31EAF8E9400CB363A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BM3ZT94MUH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0BEED9CF1EAF8E9400CB363A /* Build configuration list for PBXProject "ReactMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BEED9CB1EAF8E9400CB363A;
+			productRefGroup = 0BEED9D51EAF8E9400CB363A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BEED9D31EAF8E9400CB363A /* ReactMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BEED9D21EAF8E9400CB363A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B09D39F1EB1D4DE005733EA /* Operators.storyboard in Resources */,
+				0B09D39B1EB0F65E005733EA /* Observables.storyboard in Resources */,
+				0B09D39D1EB0F74B005733EA /* Subjects.storyboard in Resources */,
+				0BEED9E21EAF8E9400CB363A /* LaunchScreen.storyboard in Resources */,
+				0BEED9DF1EAF8E9400CB363A /* Assets.xcassets in Resources */,
+				0BEED9DD1EAF8E9400CB363A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A389AE2C682B71CC79D015F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD94F129033CBA74CDA405B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReactMe/Pods-ReactMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactMe/Pods-ReactMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BEED9D01EAF8E9400CB363A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B09D3A41EB1EFDD005733EA /* FiltringOperatorsViewController.swift in Sources */,
+				0B09D3A61EB1F01F005733EA /* FiltringOperatorViewController.swift in Sources */,
+				0B09D3931EB0CBE8005733EA /* SubjectViewController.swift in Sources */,
+				0B09D38D1EAFB7FB005733EA /* SubjectsViewController.swift in Sources */,
+				0B09D3A81EB230B5005733EA /* TransformingOperatorsViewController.swift in Sources */,
+				0B09D3AC1EB230D6005733EA /* FlatMapOperatorViewController.swift in Sources */,
+				0BEED9F21EAF92C000CB363A /* SectionsViewController.swift in Sources */,
+				0B09D3B01EB37249005733EA /* CombimingOperatorsViewController.swift in Sources */,
+				0B09D3AE1EB3723C005733EA /* CombimingOperatorViewController.swift in Sources */,
+				0B09D3891EAF9F23005733EA /* ObservablesViewController.swift in Sources */,
+				0B09D3A21EB1D657005733EA /* OperatorsViewController.swift in Sources */,
+				0BEED9D81EAF8E9400CB363A /* AppDelegate.swift in Sources */,
+				0B09D3AA1EB230C7005733EA /* MapOperatorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BEED9DB1EAF8E9400CB363A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BEED9DC1EAF8E9400CB363A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BEED9E01EAF8E9400CB363A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BEED9E11EAF8E9400CB363A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BEED9E41EAF8E9400CB363A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BEED9E51EAF8E9400CB363A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BEED9E71EAF8E9400CB363A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D04B6D1A2BA7B839488AFE /* Pods-ReactMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BM3ZT94MUH;
+				INFOPLIST_FILE = ReactMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rubygarage.ReactMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		0BEED9E81EAF8E9400CB363A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40682513B77CE36533A0851F /* Pods-ReactMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BM3ZT94MUH;
+				INFOPLIST_FILE = ReactMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rubygarage.ReactMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BEED9CF1EAF8E9400CB363A /* Build configuration list for PBXProject "ReactMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEED9E41EAF8E9400CB363A /* Debug */,
+				0BEED9E51EAF8E9400CB363A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BEED9E61EAF8E9400CB363A /* Build configuration list for PBXNativeTarget "ReactMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEED9E71EAF8E9400CB363A /* Debug */,
+				0BEED9E81EAF8E9400CB363A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BEED9CC1EAF8E9400CB363A /* Project object */;
+}
