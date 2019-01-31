@@ -7,51 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B09D3891EAF9F23005733EA /* ObservablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3881EAF9F23005733EA /* ObservablesViewController.swift */; };
-		0B09D38D1EAFB7FB005733EA /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D38C1EAFB7FB005733EA /* SubjectsViewController.swift */; };
-		0B09D3931EB0CBE8005733EA /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3921EB0CBE8005733EA /* SubjectViewController.swift */; };
-		0B09D39B1EB0F65E005733EA /* Observables.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B09D39A1EB0F65E005733EA /* Observables.storyboard */; };
-		0B09D39D1EB0F74B005733EA /* Subjects.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B09D39C1EB0F74B005733EA /* Subjects.storyboard */; };
-		0B09D39F1EB1D4DE005733EA /* Operators.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B09D39E1EB1D4DE005733EA /* Operators.storyboard */; };
-		0B09D3A21EB1D657005733EA /* OperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3A11EB1D657005733EA /* OperatorsViewController.swift */; };
-		0B09D3A41EB1EFDD005733EA /* FiltringOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3A31EB1EFDD005733EA /* FiltringOperatorsViewController.swift */; };
-		0B09D3A61EB1F01F005733EA /* FiltringOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3A51EB1F01F005733EA /* FiltringOperatorViewController.swift */; };
-		0B09D3A81EB230B5005733EA /* TransformingOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3A71EB230B5005733EA /* TransformingOperatorsViewController.swift */; };
-		0B09D3AA1EB230C7005733EA /* MapOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3A91EB230C7005733EA /* MapOperatorViewController.swift */; };
-		0B09D3AC1EB230D6005733EA /* FlatMapOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3AB1EB230D6005733EA /* FlatMapOperatorViewController.swift */; };
-		0B09D3AE1EB3723C005733EA /* CombimingOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3AD1EB3723C005733EA /* CombimingOperatorViewController.swift */; };
-		0B09D3B01EB37249005733EA /* CombimingOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09D3AF1EB37249005733EA /* CombimingOperatorsViewController.swift */; };
-		0BEED9D81EAF8E9400CB363A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEED9D71EAF8E9400CB363A /* AppDelegate.swift */; };
-		0BEED9DD1EAF8E9400CB363A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEED9DB1EAF8E9400CB363A /* Main.storyboard */; };
-		0BEED9DF1EAF8E9400CB363A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BEED9DE1EAF8E9400CB363A /* Assets.xcassets */; };
-		0BEED9E21EAF8E9400CB363A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEED9E01EAF8E9400CB363A /* LaunchScreen.storyboard */; };
-		0BEED9F21EAF92C000CB363A /* SectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEED9F11EAF92C000CB363A /* SectionsViewController.swift */; };
+		0B3D18302201806D00D11949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D181F2201806D00D11949 /* AppDelegate.swift */; };
+		0B3D18312201806D00D11949 /* SectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D18212201806D00D11949 /* SectionsViewController.swift */; };
+		0B3D18322201806D00D11949 /* MapOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D18232201806D00D11949 /* MapOperatorViewController.swift */; };
+		0B3D18332201806D00D11949 /* FlatMapOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D18242201806D00D11949 /* FlatMapOperatorViewController.swift */; };
+		0B3D18342201806D00D11949 /* TransformingOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D18252201806D00D11949 /* TransformingOperatorsViewController.swift */; };
+		0B3D18352201806D00D11949 /* OperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D18262201806D00D11949 /* OperatorsViewController.swift */; };
+		0B3D18362201806D00D11949 /* FiltringOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D18272201806D00D11949 /* FiltringOperatorViewController.swift */; };
+		0B3D18372201806D00D11949 /* CombimingOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D18282201806D00D11949 /* CombimingOperatorsViewController.swift */; };
+		0B3D18382201806D00D11949 /* FiltringOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D18292201806D00D11949 /* FiltringOperatorsViewController.swift */; };
+		0B3D18392201806D00D11949 /* CombimingOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D182A2201806D00D11949 /* CombimingOperatorViewController.swift */; };
+		0B3D183A2201806D00D11949 /* ObservablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D182C2201806D00D11949 /* ObservablesViewController.swift */; };
+		0B3D183B2201806D00D11949 /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D182E2201806D00D11949 /* SubjectViewController.swift */; };
+		0B3D183C2201806D00D11949 /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D182F2201806D00D11949 /* SubjectsViewController.swift */; };
+		0B8D65A02202CF9A0031C690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B3D18472201810300D11949 /* Assets.xcassets */; };
+		0B8D65A22202CF9A0031C690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3D183F2201810300D11949 /* LaunchScreen.storyboard */; };
+		0B8D65A32202CF9A0031C690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3D18412201810300D11949 /* Main.storyboard */; };
+		0B8D65A42202CF9A0031C690 /* Observables.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3D18432201810300D11949 /* Observables.storyboard */; };
+		0B8D65A52202CF9A0031C690 /* Subjects.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3D18402201810300D11949 /* Subjects.storyboard */; };
+		0B8D65A62202CF9A0031C690 /* Operators.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3D18422201810300D11949 /* Operators.storyboard */; };
 		5DFE5B5819F47B16053797B2 /* Pods_ReactMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0501DC7DD926E2E10B24CFEB /* Pods_ReactMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0501DC7DD926E2E10B24CFEB /* Pods_ReactMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B09D3881EAF9F23005733EA /* ObservablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservablesViewController.swift; sourceTree = "<group>"; };
-		0B09D38C1EAFB7FB005733EA /* SubjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
-		0B09D3921EB0CBE8005733EA /* SubjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
-		0B09D39A1EB0F65E005733EA /* Observables.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Observables.storyboard; sourceTree = "<group>"; };
-		0B09D39C1EB0F74B005733EA /* Subjects.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Subjects.storyboard; sourceTree = "<group>"; };
-		0B09D39E1EB1D4DE005733EA /* Operators.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Operators.storyboard; sourceTree = "<group>"; };
-		0B09D3A11EB1D657005733EA /* OperatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorsViewController.swift; sourceTree = "<group>"; };
-		0B09D3A31EB1EFDD005733EA /* FiltringOperatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltringOperatorsViewController.swift; sourceTree = "<group>"; };
-		0B09D3A51EB1F01F005733EA /* FiltringOperatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltringOperatorViewController.swift; sourceTree = "<group>"; };
-		0B09D3A71EB230B5005733EA /* TransformingOperatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformingOperatorsViewController.swift; sourceTree = "<group>"; };
-		0B09D3A91EB230C7005733EA /* MapOperatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapOperatorViewController.swift; sourceTree = "<group>"; };
-		0B09D3AB1EB230D6005733EA /* FlatMapOperatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatMapOperatorViewController.swift; sourceTree = "<group>"; };
-		0B09D3AD1EB3723C005733EA /* CombimingOperatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombimingOperatorViewController.swift; sourceTree = "<group>"; };
-		0B09D3AF1EB37249005733EA /* CombimingOperatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombimingOperatorsViewController.swift; sourceTree = "<group>"; };
+		0B3D181F2201806D00D11949 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B3D18212201806D00D11949 /* SectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionsViewController.swift; sourceTree = "<group>"; };
+		0B3D18232201806D00D11949 /* MapOperatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapOperatorViewController.swift; sourceTree = "<group>"; };
+		0B3D18242201806D00D11949 /* FlatMapOperatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatMapOperatorViewController.swift; sourceTree = "<group>"; };
+		0B3D18252201806D00D11949 /* TransformingOperatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformingOperatorsViewController.swift; sourceTree = "<group>"; };
+		0B3D18262201806D00D11949 /* OperatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorsViewController.swift; sourceTree = "<group>"; };
+		0B3D18272201806D00D11949 /* FiltringOperatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltringOperatorViewController.swift; sourceTree = "<group>"; };
+		0B3D18282201806D00D11949 /* CombimingOperatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombimingOperatorsViewController.swift; sourceTree = "<group>"; };
+		0B3D18292201806D00D11949 /* FiltringOperatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltringOperatorsViewController.swift; sourceTree = "<group>"; };
+		0B3D182A2201806D00D11949 /* CombimingOperatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombimingOperatorViewController.swift; sourceTree = "<group>"; };
+		0B3D182C2201806D00D11949 /* ObservablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservablesViewController.swift; sourceTree = "<group>"; };
+		0B3D182E2201806D00D11949 /* SubjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
+		0B3D182F2201806D00D11949 /* SubjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
+		0B3D183F2201810300D11949 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B3D18402201810300D11949 /* Subjects.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Subjects.storyboard; sourceTree = "<group>"; };
+		0B3D18412201810300D11949 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0B3D18422201810300D11949 /* Operators.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Operators.storyboard; sourceTree = "<group>"; };
+		0B3D18432201810300D11949 /* Observables.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Observables.storyboard; sourceTree = "<group>"; };
+		0B3D18452201810300D11949 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3D18472201810300D11949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BEED9D41EAF8E9400CB363A /* ReactMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BEED9D71EAF8E9400CB363A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0BEED9DC1EAF8E9400CB363A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0BEED9DE1EAF8E9400CB363A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0BEED9E11EAF8E9400CB363A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0BEED9E31EAF8E9400CB363A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BEED9F11EAF92C000CB363A /* SectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionsViewController.swift; sourceTree = "<group>"; };
 		40682513B77CE36533A0851F /* Pods-ReactMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactMe/Pods-ReactMe.release.xcconfig"; sourceTree = "<group>"; };
 		D7D04B6D1A2BA7B839488AFE /* Pods-ReactMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactMe/Pods-ReactMe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,36 +68,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B09D38E1EAFB909005733EA /* Subjects */ = {
+		0B3D181E2201806D00D11949 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				0B09D38C1EAFB7FB005733EA /* SubjectsViewController.swift */,
-				0B09D3921EB0CBE8005733EA /* SubjectViewController.swift */,
+				0B3D18202201806D00D11949 /* Controllers */,
+				0B3D181F2201806D00D11949 /* AppDelegate.swift */,
 			);
-			name = Subjects;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		0B09D38F1EAFB95B005733EA /* Observables */ = {
+		0B3D18202201806D00D11949 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0B09D3881EAF9F23005733EA /* ObservablesViewController.swift */,
+				0B3D18212201806D00D11949 /* SectionsViewController.swift */,
+				0B3D182B2201806D00D11949 /* Observables */,
+				0B3D182D2201806D00D11949 /* Subjects */,
+				0B3D18222201806D00D11949 /* Operators */,
 			);
-			name = Observables;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		0B09D3A01EB1D634005733EA /* Operators */ = {
+		0B3D18222201806D00D11949 /* Operators */ = {
 			isa = PBXGroup;
 			children = (
-				0B09D3A11EB1D657005733EA /* OperatorsViewController.swift */,
-				0B09D3A31EB1EFDD005733EA /* FiltringOperatorsViewController.swift */,
-				0B09D3A51EB1F01F005733EA /* FiltringOperatorViewController.swift */,
-				0B09D3A71EB230B5005733EA /* TransformingOperatorsViewController.swift */,
-				0B09D3A91EB230C7005733EA /* MapOperatorViewController.swift */,
-				0B09D3AB1EB230D6005733EA /* FlatMapOperatorViewController.swift */,
-				0B09D3AF1EB37249005733EA /* CombimingOperatorsViewController.swift */,
-				0B09D3AD1EB3723C005733EA /* CombimingOperatorViewController.swift */,
+				0B3D18262201806D00D11949 /* OperatorsViewController.swift */,
+				0B3D18292201806D00D11949 /* FiltringOperatorsViewController.swift */,
+				0B3D18272201806D00D11949 /* FiltringOperatorViewController.swift */,
+				0B3D18252201806D00D11949 /* TransformingOperatorsViewController.swift */,
+				0B3D18232201806D00D11949 /* MapOperatorViewController.swift */,
+				0B3D18242201806D00D11949 /* FlatMapOperatorViewController.swift */,
+				0B3D18282201806D00D11949 /* CombimingOperatorsViewController.swift */,
+				0B3D182A2201806D00D11949 /* CombimingOperatorViewController.swift */,
 			);
-			name = Operators;
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		0B3D182B2201806D00D11949 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				0B3D182C2201806D00D11949 /* ObservablesViewController.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		0B3D182D2201806D00D11949 /* Subjects */ = {
+			isa = PBXGroup;
+			children = (
+				0B3D182F2201806D00D11949 /* SubjectsViewController.swift */,
+				0B3D182E2201806D00D11949 /* SubjectViewController.swift */,
+			);
+			path = Subjects;
+			sourceTree = "<group>";
+		};
+		0B3D183D2201810300D11949 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B3D18462201810300D11949 /* Assets */,
+				0B3D18442201810300D11949 /* Lists */,
+				0B3D183E2201810300D11949 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0B3D183E2201810300D11949 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0B3D183F2201810300D11949 /* LaunchScreen.storyboard */,
+				0B3D18412201810300D11949 /* Main.storyboard */,
+				0B3D18432201810300D11949 /* Observables.storyboard */,
+				0B3D18402201810300D11949 /* Subjects.storyboard */,
+				0B3D18422201810300D11949 /* Operators.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0B3D18442201810300D11949 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				0B3D18452201810300D11949 /* Info.plist */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		0B3D18462201810300D11949 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0B3D18472201810300D11949 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		0BEED9CB1EAF8E9400CB363A = {
@@ -121,68 +179,10 @@
 		0BEED9D61EAF8E9400CB363A /* ReactMe */ = {
 			isa = PBXGroup;
 			children = (
-				0BEED9E91EAF8FBB00CB363A /* Source */,
-				0BEED9D71EAF8E9400CB363A /* AppDelegate.swift */,
-				0BEED9EA1EAF8FC500CB363A /* Resources */,
+				0B3D181E2201806D00D11949 /* Source */,
+				0B3D183D2201810300D11949 /* Resources */,
 			);
 			path = ReactMe;
-			sourceTree = "<group>";
-		};
-		0BEED9E91EAF8FBB00CB363A /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				0BEED9F01EAF929100CB363A /* Controllers */,
-			);
-			name = Source;
-			sourceTree = "<group>";
-		};
-		0BEED9EA1EAF8FC500CB363A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0BEED9EB1EAF8FD200CB363A /* Assets */,
-				0BEED9EC1EAF8FDC00CB363A /* Lists */,
-				0BEED9ED1EAF8FE700CB363A /* Storyboards */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		0BEED9EB1EAF8FD200CB363A /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				0BEED9DE1EAF8E9400CB363A /* Assets.xcassets */,
-			);
-			name = Assets;
-			sourceTree = "<group>";
-		};
-		0BEED9EC1EAF8FDC00CB363A /* Lists */ = {
-			isa = PBXGroup;
-			children = (
-				0BEED9E31EAF8E9400CB363A /* Info.plist */,
-			);
-			name = Lists;
-			sourceTree = "<group>";
-		};
-		0BEED9ED1EAF8FE700CB363A /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				0BEED9E01EAF8E9400CB363A /* LaunchScreen.storyboard */,
-				0BEED9DB1EAF8E9400CB363A /* Main.storyboard */,
-				0B09D39A1EB0F65E005733EA /* Observables.storyboard */,
-				0B09D39C1EB0F74B005733EA /* Subjects.storyboard */,
-				0B09D39E1EB1D4DE005733EA /* Operators.storyboard */,
-			);
-			name = Storyboards;
-			sourceTree = "<group>";
-		};
-		0BEED9F01EAF929100CB363A /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				0BEED9F11EAF92C000CB363A /* SectionsViewController.swift */,
-				0B09D38F1EAFB95B005733EA /* Observables */,
-				0B09D38E1EAFB909005733EA /* Subjects */,
-				0B09D3A01EB1D634005733EA /* Operators */,
-			);
-			name = Controllers;
 			sourceTree = "<group>";
 		};
 		667FAF8646866AC1058880DA /* Frameworks */ = {
@@ -264,12 +264,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B09D39F1EB1D4DE005733EA /* Operators.storyboard in Resources */,
-				0B09D39B1EB0F65E005733EA /* Observables.storyboard in Resources */,
-				0B09D39D1EB0F74B005733EA /* Subjects.storyboard in Resources */,
-				0BEED9E21EAF8E9400CB363A /* LaunchScreen.storyboard in Resources */,
-				0BEED9DF1EAF8E9400CB363A /* Assets.xcassets in Resources */,
-				0BEED9DD1EAF8E9400CB363A /* Main.storyboard in Resources */,
+				0B8D65A02202CF9A0031C690 /* Assets.xcassets in Resources */,
+				0B8D65A22202CF9A0031C690 /* LaunchScreen.storyboard in Resources */,
+				0B8D65A32202CF9A0031C690 /* Main.storyboard in Resources */,
+				0B8D65A42202CF9A0031C690 /* Observables.storyboard in Resources */,
+				0B8D65A52202CF9A0031C690 /* Subjects.storyboard in Resources */,
+				0B8D65A62202CF9A0031C690 /* Operators.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,42 +323,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B09D3A41EB1EFDD005733EA /* FiltringOperatorsViewController.swift in Sources */,
-				0B09D3A61EB1F01F005733EA /* FiltringOperatorViewController.swift in Sources */,
-				0B09D3931EB0CBE8005733EA /* SubjectViewController.swift in Sources */,
-				0B09D38D1EAFB7FB005733EA /* SubjectsViewController.swift in Sources */,
-				0B09D3A81EB230B5005733EA /* TransformingOperatorsViewController.swift in Sources */,
-				0B09D3AC1EB230D6005733EA /* FlatMapOperatorViewController.swift in Sources */,
-				0BEED9F21EAF92C000CB363A /* SectionsViewController.swift in Sources */,
-				0B09D3B01EB37249005733EA /* CombimingOperatorsViewController.swift in Sources */,
-				0B09D3AE1EB3723C005733EA /* CombimingOperatorViewController.swift in Sources */,
-				0B09D3891EAF9F23005733EA /* ObservablesViewController.swift in Sources */,
-				0B09D3A21EB1D657005733EA /* OperatorsViewController.swift in Sources */,
-				0BEED9D81EAF8E9400CB363A /* AppDelegate.swift in Sources */,
-				0B09D3AA1EB230C7005733EA /* MapOperatorViewController.swift in Sources */,
+				0B3D18372201806D00D11949 /* CombimingOperatorsViewController.swift in Sources */,
+				0B3D18322201806D00D11949 /* MapOperatorViewController.swift in Sources */,
+				0B3D18342201806D00D11949 /* TransformingOperatorsViewController.swift in Sources */,
+				0B3D18312201806D00D11949 /* SectionsViewController.swift in Sources */,
+				0B3D18302201806D00D11949 /* AppDelegate.swift in Sources */,
+				0B3D183B2201806D00D11949 /* SubjectViewController.swift in Sources */,
+				0B3D183C2201806D00D11949 /* SubjectsViewController.swift in Sources */,
+				0B3D18392201806D00D11949 /* CombimingOperatorViewController.swift in Sources */,
+				0B3D18332201806D00D11949 /* FlatMapOperatorViewController.swift in Sources */,
+				0B3D183A2201806D00D11949 /* ObservablesViewController.swift in Sources */,
+				0B3D18362201806D00D11949 /* FiltringOperatorViewController.swift in Sources */,
+				0B3D18352201806D00D11949 /* OperatorsViewController.swift in Sources */,
+				0B3D18382201806D00D11949 /* FiltringOperatorsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0BEED9DB1EAF8E9400CB363A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0BEED9DC1EAF8E9400CB363A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0BEED9E01EAF8E9400CB363A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0BEED9E11EAF8E9400CB363A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0BEED9E41EAF8E9400CB363A /* Debug */ = {
@@ -476,7 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BM3ZT94MUH;
-				INFOPLIST_FILE = ReactMe/Info.plist;
+				INFOPLIST_FILE = ReactMe/Resources/Lists/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.rubygarage.ReactMe;
@@ -491,7 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BM3ZT94MUH;
-				INFOPLIST_FILE = ReactMe/Info.plist;
+				INFOPLIST_FILE = ReactMe/Resources/Lists/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.rubygarage.ReactMe;
